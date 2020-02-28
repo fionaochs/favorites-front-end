@@ -43,6 +43,7 @@ li {
 }
 h2{
   display: inline-block;
+  font-size: 20px;
   color: aliceblue;
   font-family: 'Times New Roman', Times, serif;
   user-select: none;
@@ -75,4 +76,16 @@ h2{
 }
 .signedUp{
   visibility: hidden;
+}
+#search{
+  text-align: center;
+
+}
+#filmBox{
+  border: 3px solid teal;
+}
+h3{
+  color: aliceblue;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
 }
