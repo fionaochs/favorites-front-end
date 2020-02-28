@@ -6,7 +6,9 @@ import {
   BrowserRouter as Router, 
 } from 'react-router-dom';
 import Header from './Header.js';
-import Favorites from './Favorites.js';
+import Footer from './Footer.js';
+import FilmList from './FilmList.js';
+// import Favorites from './Favorites.js';
 import FavoritesLogin from './FavoritesLogin.js';
 import './App.css';
 
@@ -20,10 +22,11 @@ export default class App extends Component {
                 <Header />
                 <Switch>
                     <Route exact path='/' render={() => 
-                    isLoggedIn() ? <Favorites /> : <Redirect to='/login' /> }/>
+                    isLoggedIn() ? <FilmList /> : <Redirect to='/login' /> }/>
                  <Route exact path='/login' component={FavoritesLogin} />
 
                 </Switch>
+                <Footer />
 
                 </div>
             </Router>
