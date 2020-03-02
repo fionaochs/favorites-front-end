@@ -1,0 +1,91 @@
+body {
+  padding: 50px;
+  background-color: rgb(0,173,239);
+  font-family: sans-serif;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+header{
+  text-align: center;
+  font-size: 35px;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+#imgcontainer{
+  display: flex;
+  width: 100%;
+}
+#img{
+  justify-content: center;
+  width: 50%;
+}
+li {
+  text-align: center;
+  list-style: none;
+}
+#todoContainer{
+  text-align: center;
+
+}
+#signininput{
+  margin-right: 10px;
+}
+#signupinput{
+  margin-right: 10px;
+}
+#signininputbutton{
+  margin-left: 10px;
+}
+#signupinputbutton{
+  margin-left: 10px;
+}
+h2{
+  display: inline-block;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: 'Times New Roman', Times, serif;
+  user-select: none;
+}
+.complete{
+  text-decoration: line-through;
+}
+.button{
+  margin-left: 10px;
+}
+ .button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  border-radius: 10%;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+#userlogin{
+  text-align: center;
+  margin-top: 5px;
+}
+#singup{
+  margin: 10px 10px 10px 10px;
+}
+#singin{
+  margin: 10px 10px 10px 10px;
+}
+.notSignedUp{
+  visibility: hidden;
+}
+.signedUp{
+  visibility: hidden;
+}
+#search{
+  text-align: center;
+
+}
+#filmBox{
+  border: 3px solid teal;
+}
+h3{
+  color: aliceblue;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
